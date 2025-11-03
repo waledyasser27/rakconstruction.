@@ -40,12 +40,20 @@
     <link rel="preload" as="image" href="medical/juffali_medical_center.jpg" imagesrcset="medical/juffali_medical_center.jpg 1200w" imagesizes="100vw">
 </head>
 <body>
-    <!-- Language Toggle (Hidden) -->
-    <div class="language-toggle">
-        <button id="langToggle" aria-label="Switch Language">
-            <span class="lang-ar">EN</span>
-            <span class="lang-en">عربي</span>
-        </button>
+    <!-- Quick Actions replacing old language toggle -->
+    <div class="floating-quick-actions">
+        <a href="#divisions" class="fqa-btn" aria-label="View Our Work">
+            <span class="lang-ar">شاهد أعمالنا</span>
+            <span class="lang-en">View Our Work</span>
+        </a>
+        <a href="#contact" class="fqa-btn" aria-label="Contact Us">
+            <span class="lang-ar">تواصل معنا</span>
+            <span class="lang-en">Contact Us</span>
+        </a>
+        <a href="#contact" class="fqa-btn call" aria-label="Call Now">
+            <span class="lang-ar">اتصل الآن</span>
+            <span class="lang-en">Call Now</span>
+        </a>
     </div>
 
     <!-- Header -->
@@ -55,6 +63,10 @@
                 <!-- Logo: استبدل مسار الصورة والـ alt بشعارك النهائي -->
                 <div class="logo">
                     <img src="0_a0f2101e-9561-4776-a9b1-4c58c2a61a5f.png" alt="Rafic A. Kreidie Logo">
+                    <button id="navLangToggle" aria-label="Switch Language" style="margin-inline-start:12px;">
+                        <span class="lang-ar">EN</span>
+                        <span class="lang-en">عربي</span>
+                    </button>
                 </div>
 
                 <!-- Navigation -->
