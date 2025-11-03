@@ -1,0 +1,19 @@
+{
+  "name": "rafic-kreidie-website",
+  "version": "1.0.0",
+  "description": "Rafic A. Kreidie Engineers & Contractors - Official Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python api/index.py",
+    "vercel-build": "echo 'Build complete'"
+  },
+  "keywords": [
+    "construction",
+    "contractors",
+    "engineering",
+    "saudi-arabia",
+    "jeddah"
+  ],
+  "author": "Rafic A. Kreidie",
+  "license": "MIT"
+}
